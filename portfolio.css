@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(9, 6, 27);
+    color: rgb(255, 255, 255);
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+nav ul li a {
+    text-decoration: none;
+    font-size: 17px;
+    color: white;
+    padding: 14px 16px;
+}
+
+nav ul li a:hover{
+    background-color: white;
+    color: black;
+    
+}
+.left{
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1.5rem;
+
+}
+.left:hover{
+    background-color: white;
+    color: black;
+    
+}
+.home{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 122px 0;
+}
+.home >div{
+    width: 30%;
+}
+.rightSection img{
+    width: 80%;  
+}
+.leftSection{
+    font-size: 2.5rem;
+}
+.red{
+    color: violet;
+}
+main hr {
+    border: 0;
+    background: #215b93;
+    height: 1px;
+    margin: 40px 84px;
+}
+.about-content{
+    display: flex;
+    align-items: center;
+    max-width: 80vw;
+    margin: auto;
+    justify-content: space-around;
+}
+.about-me{
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 40px;
+    padding-bottom: 10px;
+}
+.image{
+    width: 45%;
+}
+.text{
+    width: 55%;
+}
+.image{
+    float: left;
+}
+.image img{
+    width: 80%;
+}
+.text .about-main{
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.text .about-desc{
+    text-align: justify;
+    line-height: 1.6;
+    letter-spacing: 1px;
+}
+.skill-content{
+    display: flex;
+    align-items: center;
+    max-width: 80vw;
+    margin: auto;
+    justify-content: space-around;
+}
+.text ul li{
+    margin: 6px;
+    padding: 6px;
+}
+.image-container{
+    width: 45%;
+}
+.image-container img{
+    width: 20%;
+    margin: 5px;
+    padding: 5px;
+    aspect-ratio: auto;
+}
+.box{
+    display:flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.contact-me{
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+.contact-details{
+    width: 60%;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 40px;
+}
+.span-content{
+    text-decoration: none;
+    margin: 10px;
+    font-size: 1.5rem;
+    color: white;
+}
+.row{
+    display: flex;
+    height: 65px;
+    align-items: center;
+    margin: 20px;
+    padding: 10px;
+}
+i{
+    font-size: 25px;
+    color: crimson;
+    
+}
+.info{
+    margin-left: 30px;
+    justify-content: left;
+    float: left;
+}
+i:hover{
+    background-color: white;
+    color: crimson;
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out;
+}
+.spanfooter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+    color: black;
+}
+.name{
+    text-decoration: none;
+    color: violet;
+}
